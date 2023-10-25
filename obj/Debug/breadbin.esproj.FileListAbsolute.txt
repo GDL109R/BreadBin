@@ -1,0 +1,2 @@
+C:\Users\tomha\source\repos\BreadBin\obj\Debug\breadbin.esproj.SuggestedBindingRedirects.cache
+C:\Users\tomha\source\repos\BreadBin\obj\Debug\breadbin.esproj.CoreCompileInputs.cache
