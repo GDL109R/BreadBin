@@ -1,6 +1,10 @@
+import { Fragment } from "react";
+
 const Portfolio = () => {
     return (
-        <div>Portfolio</div>
+        <Fragment>
+            <div>Portfolio</div>
+        </Fragment>
     )
 }
 

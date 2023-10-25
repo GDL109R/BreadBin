@@ -1,6 +1,10 @@
+import { Fragment } from "react";
+
 const Reviews = () => {
     return (
-        <div>Reviews</div>
+        <Fragment>
+            <div>Reviews</div>
+        </Fragment>
     )
 }
 
