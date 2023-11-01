@@ -1,0 +1,39 @@
+.expandable-section {
+    margin-bottom: 10px;
+    overflow-x: hidden;
+}
+
+.expandable-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #b94ccf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expandable-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #b94ccf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.content {
+    padding: 10px;
+    margin-bottom: 10px; /* Add a margin to avoid overlapping */
+}
