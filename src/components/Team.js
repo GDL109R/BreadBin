@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 
 const Team = () => {
+    const currentPath = window.location.pathname;
 
     const boxStyle = {
         border: '1px solid gray', // Add a gray border
@@ -9,6 +10,11 @@ const Team = () => {
 
     return (
         <Fragment>
+
+            <div>
+                <p>Current Path: {currentPath}</p>
+            </div>
+            
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -17,16 +23,24 @@ const Team = () => {
                 </div>
                 <div className="row">
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="src\PFPs\Cat 0.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 1.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 2.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 3.png" />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -50,10 +64,14 @@ const Team = () => {
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 4.png" />
+                        </div>
                     </div>
                     <div className="col-6">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 5.png" />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -71,16 +89,24 @@ const Team = () => {
                 </div>
                 <div className="row">
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 6.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 7.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 8.png" />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className="box" style={boxStyle}>
+                            <img src="../PFPs/Cat 9.png" />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
