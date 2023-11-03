@@ -1,45 +1,63 @@
 import { Fragment } from "react";
 
 const Team = () => {
-    const currentPath = window.location.pathname;
 
     const boxStyle = {
-        border: '1px solid gray', // Add a gray border
+        borderTop: 'None', // Add a gray border to the top
+        borderLeft: '1px solid gray', // Add a gray border to the left
+        borderRight: '1px solid gray', // Add a gray border to the right
+        borderBottom: '1px solid gray', // No border at the bottom
         padding: '5px', // Add padding to the boxes
+        display: 'flex', // Center horizontally
+        flexDirection: 'column', // Align items vertically
+        alignItems: 'center', // Center vertically
+        justifyContent: 'center', // Center text horizontally
+    };
+
+    const levelRowStyle = {
+        paddingTop: '10px',
+    }
+
+    const levelBoxStyle = {
+        borderTop: '1px solid gray',
+    }
+
+    const pfpImgStyle = {
+        maxWidth: '250px',
+        maxHeight: '250px',
+        minWidth: '250px',
+        minHeight: '250px',
+        display: 'block', // Make sure the images are block elements
+        margin: '0 auto', // Center the images horizontally
     };
 
     return (
         <Fragment>
-
-            <div>
-                <p>Current Path: {currentPath}</p>
-            </div>
-            
             <div className="container">
-                <div className="row">
+                <div className="row" style={levelRowStyle}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 6</div>
+                        <div className="box" style={{ ...boxStyle, ...levelBoxStyle }}>Level 6</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="src\PFPs\Cat 0.png" />
+                            <img src={require("../PFPs/Cat0.png")} alt="Liv" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 1.png" />
+                            <img src={require('../PFPs/Cat1.png')} alt="Jamie" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 2.png" />
+                            <img src={require("../PFPs/Cat2.png")} alt="Tommy" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 3.png" />
+                            <img src={require("../PFPs/Cat3.png")} alt="Kyle" style={pfpImgStyle} />
                         </div>
                     </div>
                 </div>
@@ -57,20 +75,20 @@ const Team = () => {
                         <div className="box" style={boxStyle}>Kyle</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" style={levelRowStyle}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 5</div>
+                        <div className="box" style={{ ...boxStyle, ...levelBoxStyle }}>Level 5</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-6">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 4.png" />
+                            <img src={require("../PFPs/Cat4.png")} alt="Anna" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-6">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 5.png" />
+                            <img src={require("../PFPs/Cat5.png")} alt="Helen" style={pfpImgStyle} />
                         </div>
                     </div>
                 </div>
@@ -82,30 +100,30 @@ const Team = () => {
                         <div className="box" style={boxStyle}>Helen</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" style={levelRowStyle}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 4</div>
+                        <div className="box" style={{ ...boxStyle, ...levelBoxStyle }}>Level 4</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 6.png" />
+                            <img src={require("../PFPs/Cat6.png")} alt="~~~~" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 7.png" />
+                            <img src={require("../PFPs/Cat7.png")} alt="~~~~" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 8.png" />
+                            <img src={require("../PFPs/Cat8.png")} alt="~~~~" style={pfpImgStyle} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="box" style={boxStyle}>
-                            <img src="../PFPs/Cat 9.png" />
+                            <img src={require("../PFPs/Cat9.png")} alt="~~~~" style={pfpImgStyle} />
                         </div>
                     </div>
                 </div>
@@ -123,9 +141,9 @@ const Team = () => {
                         <div className="box" style={boxStyle}>~~~~~</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" style={levelRowStyle}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Brief history of Bread Bin</div>
+                        <div className="box" style={{ ...boxStyle, ...levelBoxStyle }}>Brief history of Bread Bin</div>
                     </div>
                 </div>
                 <div className="row">
