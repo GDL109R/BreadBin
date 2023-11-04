@@ -11,7 +11,7 @@ const Reviews = () => {
             <ReviewItem title="01/11/2023 - George Keen">
                 <p>I really liked this gig, it was a lot of fun</p>
             </ReviewItem>
-            <ReviewItem title="01/11/2023 - Geroge Hewett">
+            <ReviewItem title="01/11/2023 - George Hewett">
                 <p>I really liked this gig, it was a lot of fun</p>
             </ReviewItem>
             <ReviewItem title="01/11/2023 - Mystery Shopper">
