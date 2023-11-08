@@ -1,110 +1,126 @@
 import { Fragment } from "react";
+import styles from "../TeamStyles.module.css";
 
 const Team = () => {
-
-    const boxStyle = {
-        border: '1px solid gray', // Add a gray border
-        padding: '5px', // Add padding to the boxes
-    };
 
     return (
         <Fragment>
             <div className="container">
-                <div className="row">
+                <div className={styles['levelRowStyle']}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 6</div>
+                        <div className={styles['levelBoxStyle']}>Level 6</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat0.png")} alt="Liv" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require('../PFPs/Cat1.png')} alt="Jamie" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat2.png")} alt="Tommy" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat3.png")} alt="Kyle" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-3">
-                        <div className="box" style={boxStyle}>Liv</div>
+                        <div className={styles['boxStyle']}>Liv</div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}>Jamie</div>
+                        <div className={styles['boxStyle']}>Jamie</div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}>Tommy</div>
+                        <div className={styles['boxStyle']}>Tommy</div>
                     </div>
                     <div className="col-3">
-                        <div className="box" style={boxStyle}>Kyle</div>
+                        <div className={styles['boxStyle']}>Kyle</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className={styles['levelRowStyle']}>
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 5</div>
+                        <div className={styles['levelBoxStyle']}>Level 5</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat4.png")} alt="Anna" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                     <div className="col-6">
-                        <div className="box" style={boxStyle}></div>
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat5.png")} alt="Helen" className={styles['pfpImgStyle']} />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div className="box" style={boxStyle}>Anna</div>
+                        <div className={styles['boxStyle']}>Anna</div>
                     </div>
                     <div className="col-6">
-                        <div className="box" style={boxStyle}>Helen</div>
+                        <div className={styles['boxStyle']}>Helen</div>
+                    </div>
+                </div>
+                <div className={styles['levelRowStyle']}>
+                    <div className="col-12">
+                        <div className={styles['levelBoxStyle']}>Level 4</div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat6.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                        </div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat7.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                        </div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat8.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                        </div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>
+                            <img src={require("../PFPs/Cat9.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>~~~~~</div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>~~~~~</div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>~~~~~</div>
+                    </div>
+                    <div className="col-3">
+                        <div className={styles['boxStyle']}>~~~~~</div>
+                    </div>
+                </div>
+                <div className={styles['levelRowStyle']}>
+                    <div className="col-12">
+                        <div className={styles['levelBoxStyle']}>Brief history of Bread Bin</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                        <div className="box" style={boxStyle}>Level 4</div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}></div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}>~~~~~</div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}>~~~~~</div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}>~~~~~</div>
-                    </div>
-                    <div className="col-3">
-                        <div className="box" style={boxStyle}>~~~~~</div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="box" style={boxStyle}>Brief history of Bread Bin</div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="box" style={boxStyle}>
+                        <div className={styles['boxStyle']}>
                             History (derived from Ancient Greek ἱστορία (historía) 'inquiry; knowledge acquired by investigation') is the systematic study and documentation of the human past.
                             The period of events before the invention of writing systems is considered prehistory. "History" is an umbrella term comprising past events as well as the memory, discovery, collection, organization, presentation, and interpretation of these events. Historians seek knowledge of the past using historical sources such as written documents, oral accounts, art and material artifacts, and ecological markers. History is incomplete and still has debatable mysteries.
                             History is an academic discipline which uses a narrative to describe, examine, question, and analyze past events, and investigate their patterns of cause and effect.Historians debate which narrative best explains an event, as well as the significance of different causes and effects. Historians debate the nature of history as an end in itself, and its usefulness in giving perspective on the problems of the present.

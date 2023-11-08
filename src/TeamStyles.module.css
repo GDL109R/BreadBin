@@ -1,0 +1,33 @@
+.boxStyle {
+    border-top: None; /* Add a gray border to the top */
+    border-left: 1px solid gray; /* Add a gray border to the left */
+    border-right: 1px solid gray; /* Add a gray border to the right */
+    border-bottom: 1px solid gray; /* No border at the bottom */
+    padding: 5px; /* Add padding to the boxes */
+    display: flex; /* Center horizontally */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.levelRowStyle {
+    padding-top: 10px;
+}
+
+.levelBoxStyle {
+    border: 1px solid gray; /* No border at the bottom */
+    padding: 5px; /* Add padding to the boxes */
+    display: flex; /* Center horizontally */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.pfpImgStyle {
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    display: block; /* Make sure the images are block elements */
+    margin: 0 auto; /* Center the images horizontally */
+}
