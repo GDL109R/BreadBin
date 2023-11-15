@@ -1,9 +1,14 @@
 import { Fragment } from "react";
+import Bands from "./Bands";
+import Gigs from "./Gigs";
+import Venues from "./Venues";
 
 const Portfolio = () => {
     return (
         <Fragment>
-            <div>Portfolio</div>
+            <Gigs />
+            <Venues />
+            <Bands />
         </Fragment>
     )
 }
