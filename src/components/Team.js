@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import styles from "../TeamStyles.module.css";
 
 const Team = () => {
-
     return (
         <Fragment>
             <div className="container">
