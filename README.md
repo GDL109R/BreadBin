@@ -4,12 +4,12 @@ Website for **BreadBin Productions**
 
 Main colour to use (for now) is ***#b94ccf***
 
-### Current progress:
+### Current progress (out of date lol):
 
 * [ ] Home
 * [ ] Portfolio
-* [ ] Reviews - Worked on by Tom
-* [ ] The Team - Worked on by George K
+* [ ] Reviews
+* [ ] The Team
 * [ ] Contact
 * [ ] Social Media
 * [ ] Navbar
