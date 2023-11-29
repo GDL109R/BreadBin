@@ -1,9 +1,22 @@
 import { Fragment } from "react";
+import React, { useState } from 'react';
 import { NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import styles from "../HomeStyles.module.css";
 
 const Home = () => {
+    const [rotateClass, setRotateClass] = useState('');
+
+    const randomRotation = () => {
+        const randomNumber = Math.random();
+        const newRotateClass = randomNumber < 0.5 ? styles.rotateClockwise : styles.rotateCounterClockwise;
+        setRotateClass(newRotateClass);
+    };
+
+    const resetRotation = () => {
+        setRotateClass('');
+    };
+
     return (
         <Fragment>
             <div className={styles['backgroundImage']}>
@@ -35,8 +48,8 @@ const Home = () => {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <div className={styles['']}>
-                                <img src={require("../Images/Drum.png")} alt="logo" className={styles['drumImgStyle']} />
+                            <div className={styles.container}>
+                                <img src={require("../Images/Drum.png")} alt="logo" className={`${styles.drumImgStyle} ${rotateClass}`} onMouseEnter={randomRotation} onMouseLeave={resetRotation} />
                             </div>
                         </div>
                     </div>

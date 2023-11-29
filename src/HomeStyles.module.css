@@ -59,7 +59,6 @@
     text-align: center;
 }
 
-
 .drumImgStyle {
     max-width: 300px;
     max-height: 300px;
@@ -69,6 +68,10 @@
     margin: 0 auto;
 }
 
-.drumImgStyle:hover {
+.rotateClockwise {
     transform: rotate(5deg);
+}
+
+.rotateCounterClockwise {
+    transform: rotate(-5deg);
 }
