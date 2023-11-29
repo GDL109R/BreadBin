@@ -1,15 +1,16 @@
 import { Fragment } from "react";
+import styles from "../ContactStyle.module.css";
 //Bootstap form elements
 const Contact = () => {
     return (
         <Fragment>
-            <div className="container mt-5">
-                <div><h1>Contact</h1></div>
+            <div><h1 style={{ paddingBottom: "15px" }}>Contact</h1></div>
+            <div className="container">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="row">
                             <div className="col-12">
-                                <h2>Contact Details</h2>
+                                <div className={styles['titleBoxStyle']}>Contact Details</div>
                             </div>
                         </div>
                         <div className="row">
@@ -38,7 +39,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <h2>Contact Form</h2>
+                        <div className={styles['titleBoxStyle']}>Contact Form</div>
                         <form>
                             <div className="form-group">
                                 <label htmlFor="name">Name:</label>

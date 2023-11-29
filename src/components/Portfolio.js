@@ -12,20 +12,21 @@ const Portfolio = () => {
     }
     return (
         <Fragment>
-            <div className="container" style={{padding: "40px"}}>
+            <div><h1>Portfolio</h1></div>
+            <div className="container" style={{ padding: "40px", paddingTop: "15px" }}>
                 <div className="row">
                     <div className="col-4 d-flex justify-content-center">
-                        <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{minWidth: "150px"}}>
+                        <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
                             <strong>Gigs</strong>
                         </button>
                     </div>
                     <div className="col-4 d-flex justify-content-center">
-                        <button onClick={() => handleClick("Venues")} className="btn btn-primary" style={{ minWidth: "150px" }}>
+                        <button onClick={() => handleClick("Venues")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
                             <strong>Venues</strong>
                         </button>
                     </div>
                     <div className="col-4 d-flex justify-content-center">
-                        <button onClick={() => handleClick("Bands")} className="btn btn-primary" style={{ minWidth: "150px" }}>
+                        <button onClick={() => handleClick("Bands")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
                             <strong>Clients/Bands</strong>
                         </button>
                     </div>

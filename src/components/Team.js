@@ -4,6 +4,7 @@ import styles from "../TeamStyles.module.css";
 const Team = () => {
     return (
         <Fragment>
+            <div><h1>The Team</h1></div>
             <div className="container">
                 <div className={styles['levelRowStyle']}>
                     <div className="col-12">
