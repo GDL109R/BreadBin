@@ -3,9 +3,6 @@ import Bands from "./Bands";
 import Gigs from "./Gigs";
 import Venues from "./Venues";
 
-
-
-
 const Portfolio = () => {
     const [curPage, setCurPage] = useState("Gigs");
 
