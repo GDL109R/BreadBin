@@ -8,11 +8,10 @@ Main colour to use (for now) is ***#b94ccf***
 
 * [X] Home
 * [ ] Portfolio
-* [ ] Reviews
+* [X] Reviews
 * [X] The Team
-* [ ] Contact
-* [ ] Social Media
-* [ ] Navbar
+* [X] Contact
+* [X] Navbar
 * [ ] Style
 * [ ] Extras ;)
 
