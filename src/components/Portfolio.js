@@ -12,9 +12,9 @@ const Portfolio = () => {
     }
     return (
         <Fragment>
-            <div><h1>Portfolio</h1></div>
             <div className="page-borders">
-                <div className="container" style={{  padding: "40px", paddingTop: "15px" }}>
+                <div><h1>Portfolio</h1></div>
+                <div className="container" style={{ padding: "40px", paddingTop: "15px" }}>
                     <div className="row">
                         <div className="col-4 d-flex justify-content-center">
                             <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
