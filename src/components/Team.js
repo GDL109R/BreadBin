@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import styles from "../TeamStyles.module.css";
 
 const Team = () => {
-
     return (
         <Fragment>
             <div className="container">
@@ -14,22 +13,22 @@ const Team = () => {
                 <div className="row">
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat0.png")} alt="Liv" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat0.png")} alt="Liv" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require('../PFPs/Cat1.png')} alt="Jamie" className={styles['pfpImgStyle']} />
+                            <img src={require('../Images/Cat1.png')} alt="Jamie" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat2.png")} alt="Tommy" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat2.png")} alt="Tommy" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat3.png")} alt="Kyle" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat3.png")} alt="Kyle" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                 </div>
@@ -55,12 +54,12 @@ const Team = () => {
                 <div className="row">
                     <div className="col-6">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat4.png")} alt="Anna" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat4.png")} alt="Anna" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-6">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat5.png")} alt="Helen" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat5.png")} alt="Helen" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                 </div>
@@ -80,22 +79,22 @@ const Team = () => {
                 <div className="row">
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat6.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat6.png")} alt="~~~~" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat7.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat7.png")} alt="~~~~" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat8.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat8.png")} alt="~~~~" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={styles['boxStyle']}>
-                            <img src={require("../PFPs/Cat9.png")} alt="~~~~" className={styles['pfpImgStyle']} />
+                            <img src={require("../Images/Cat9.png")} alt="~~~~" className={styles['pfpImgStyle']} />
                         </div>
                     </div>
                 </div>

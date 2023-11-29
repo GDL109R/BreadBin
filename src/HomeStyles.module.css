@@ -1,0 +1,77 @@
+.backgroundImage {
+    background-image: url('./Images/HomeBG.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.boxStyle {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #b94ccf;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.boxStyle:hover {
+    transform: scale(1.1);
+    background: hsla(288, 60%, 50%, 1);
+}
+
+.text-top {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-bot {
+    font-size: 25px;
+}
+
+.logoRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.logoCol {
+    background: #b94ccf;
+    border-radius: 5px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoCol:hover {
+    transform: scale(1.1);
+    background: hsla(288, 60%, 70%, 1);
+}
+
+.logoStyle {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.drumImgStyle {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rotateClockwise {
+    transform: rotate(5deg);
+}
+
+.rotateCounterClockwise {
+    transform: rotate(-5deg);
+}
