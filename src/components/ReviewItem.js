@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from "../ExpandableSection.module.css";
 
-export default ({ title, reviewMessage, expanded = false }) => {
+export default ({ title, reviewMessage, bandAndVenue, expanded = false }) => {
 
     const [isExpanded, setExpanded] = useState(expanded);
 
@@ -20,7 +20,7 @@ export default ({ title, reviewMessage, expanded = false }) => {
             <div className={styles["expandable-preview"]}>
                 {!isExpanded && <p>{reviewPreview}</p>}
             </div>
-            {isExpanded && <div className={styles["expandable-preview"]}><p>{reviewMessage}</p></div>}
+            {isExpanded && <div className={styles["expandable-preview"]}><p><strong>{ bandAndVenue }</strong></p><p>{reviewMessage}</p></div>}
         </div>
     )
 }
