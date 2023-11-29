@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <Fragment>
             <div className="page-borders">
-                <div><h1 style={{ paddingBottom: "15px" }}>Contact</h1></div>
+                <div><h1 style={{ paddingBottom: "15px", textAlign: "center" }}>Contact</h1></div>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -43,22 +43,24 @@ const Contact = () => {
                             <div className={styles['titleBoxStyle']}>Contact Form</div>
                             <form>
                                 <div className="form-group">
-                                    <label htmlFor="name">Name:</label>
+                                    <label htmlFor="name" style={{ paddingTop: "5px" }}>Name:</label>
                                     <input type="text" className="form-control" id="name" placeholder="Enter your name" />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="email">Email:</label>
+                                    <label htmlFor="email" style={{ paddingTop: "5px" }}>Email:</label>
                                     <input type="email" className="form-control" id="email" placeholder="Enter your email" />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="phone">Phone:</label>
+                                    <label htmlFor="phone" style={{ paddingTop: "5px" }}>Phone:</label>
                                     <input type="tel" className="form-control" id="phone" placeholder="Enter your phone number" />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="message">Message:</label>
+                                    <label htmlFor="message" style={{ paddingTop: "5px" }}>Message:</label>
                                     <textarea className="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
                                 </div>
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <div style={{ paddingTop: "10px" }}>
+                                    <button type="submit" className="btn btn-primary" >Submit</button>
+                                </div>
                             </form>
                         </div>
                     </div>

@@ -24,7 +24,7 @@ const Reviews = () => {
     return (
         <Fragment>
             <div className="page-borders">
-                <div><h1 style={{ paddingBottom: "15px" }}>Reviews</h1></div>
+                <div><h1 style={{ paddingBottom: "15px", textAlign: "center" }}>Reviews</h1></div>
 
                 {revs.map((rev) => (
                     <ReviewItem

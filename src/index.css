@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn {
+  background-color: #b94ccf;
+  border: none;
+}
+
+.btn:hover {
+  background-color: hsla(288, 60%, 50%, 1);
+}

@@ -17,6 +17,7 @@
     color: white;
     border-radius: 5px;
     font-size: 24px;
+    transition: transform 0.5s ease, background 0.5s ease;
 }
 
 .boxStyle:hover {
@@ -49,10 +50,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s ease, background 0.5s ease;
 }
 
 .logoCol:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     background: hsla(288, 60%, 70%, 1);
 }
 
@@ -70,6 +72,7 @@
     min-height: 200px;
     display: block;
     margin: 0 auto;
+    transition: transform 0.5s ease, background 0.5s ease;
 }
 
 .rotateClockwise {

@@ -14,21 +14,21 @@ const Portfolio = () => {
     return (
         <Fragment>
             <div className="page-borders">
-                <div><h1>Portfolio</h1></div>
+                <div><h1 style={{ textAlign: "center" }}>Portfolio</h1></div>
                 <div className="container" style={{ padding: "40px", paddingTop: "15px" }}>
                     <div className="row">
                         <div className="col-4 d-flex justify-content-center">
-                            <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
+                            <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{ minWidth: "150px" }}>
                                 <strong>Gigs</strong>
                             </button>
                         </div>
                         <div className="col-4 d-flex justify-content-center">
-                            <button onClick={() => handleClick("Venues")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
+                            <button onClick={() => handleClick("Venues")} className="btn btn-primary" style={{ minWidth: "150px" }}>
                                 <strong>Venues</strong>
                             </button>
                         </div>
                         <div className="col-4 d-flex justify-content-center">
-                            <button onClick={() => handleClick("Bands")} className="btn btn-primary" style={{ minWidth: "150px", backgroundColor: "#b94ccf" }}>
+                            <button onClick={() => handleClick("Bands")} className="btn btn-primary" style={{ minWidth: "150px" }}>
                                 <strong>Clients/Bands</strong>
                             </button>
                         </div>
