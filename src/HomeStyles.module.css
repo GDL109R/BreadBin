@@ -2,6 +2,7 @@
     background-image: url('./Images/HomeBG.png');
     background-size: cover;
     background-position: center;
+    margin: 0;
 }
 
 .boxStyle {
