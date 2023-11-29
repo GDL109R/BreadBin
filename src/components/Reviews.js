@@ -22,16 +22,18 @@ const revs = [
 
 const Reviews = () => {
     return (
-         <Fragment>
-            <div><h1 style={{ paddingBottom: "15px" }}>Reviews</h1></div>
+        <Fragment>
+            <div className="page-borders">
+                <div><h1 style={{ paddingBottom: "15px" }}>Reviews</h1></div>
 
-            {revs.map((rev) => (
-                <ReviewItem
-                    key={rev.date + rev.name}
-                    title={rev.date + " - " + rev.name}
-                    reviewMessage={rev.reviewMessage}
-                />
-            ))}
+                {revs.map((rev) => (
+                    <ReviewItem
+                        key={rev.date + rev.name}
+                        title={rev.date + " - " + rev.name}
+                        reviewMessage={rev.reviewMessage}
+                    />
+                ))}
+            </div>
         </Fragment>
 
 
