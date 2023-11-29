@@ -20,3 +20,7 @@ code {
 .btn:hover {
   background-color: hsla(288, 60%, 50%, 1);
 }
+
+.btn:active {
+  background-color: rgb(119, 37, 140) !important;
+}
