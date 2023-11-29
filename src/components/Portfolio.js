@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import '../App.css';
 import Bands from "./Bands";
 import Gigs from "./Gigs";
 import Venues from "./Venues";
