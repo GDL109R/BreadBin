@@ -8,9 +8,20 @@ const Home = () => {
     const [rotateClass, setRotateClass] = useState('');
 
     const randomRotation = () => {
-        const randomNumber = Math.random();
-        const newRotateClass = randomNumber < 0.5 ? styles.rotateClockwise : styles.rotateCounterClockwise;
-        setRotateClass(newRotateClass);
+        const randomNumber = Math.random() * 100; // Scale random number to 0-100 range
+
+        // 1% chance for flipping 180 degrees
+        if (randomNumber < 1) {
+            setRotateClass(styles.rotateEaster);
+            return;
+        }
+
+        // 49.5% chance for clockwise rotation
+        if (randomNumber < 50) {
+            setRotateClass(styles.rotateClockwise);
+        } else {
+            setRotateClass(styles.rotateCounterClockwise); // 49.5% chance for counter-clockwise rotation
+        }
     };
 
     const resetRotation = () => {

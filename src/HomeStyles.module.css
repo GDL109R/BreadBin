@@ -82,3 +82,7 @@
 .rotateCounterClockwise {
     transform: rotate(-5deg);
 }
+
+.rotateEaster {
+    transform: rotate(180deg);
+}
