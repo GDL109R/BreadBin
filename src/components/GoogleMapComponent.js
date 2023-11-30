@@ -35,33 +35,3 @@ const GoogleMapComponent = ({ lat, lng }) => {
 };
 
 export default GoogleMapComponent;
-
-/*
-import GoogleMapReact from 'google-map-react';
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-const GoogleMapComponent = ({ lat, lng }) => {
-    const defaultProps = {
-        center: {
-            lat: lat,
-            lng: lng
-        },
-        zoom: 11
-    };
-
-    return (
-        // Important! Always set the container height explicitly
-        <div style={{ height: '100%', width: '100%' }}>
-            <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyAzOo8l1104UX9SkEIIwXOYBglrdnVhwUM' }}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
-            >
-                <div lat={lat} lng={lng}></div>
-            </GoogleMapReact>
-        </div>
-    );
-}
-
-export default GoogleMapComponent;*/
