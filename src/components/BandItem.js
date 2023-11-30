@@ -9,11 +9,11 @@ export default ({ title, bandMessage, image1Loc, image2Loc = false }) => {
                     {bandMessage}
                 </div>
                 <div className="col-3 square-box">
-                    <img src={require("../Images/Cat3.png")} alt={title} className={styles['imgStyle']} />
+                    <img src={image1Loc} alt={title} className={styles['imgStyle']} />
                 </div>
 
                 <div className="col-3">
-                <img src={require("../Images/Cat6.png")} alt={title} className={styles['imgStyle']} />
+                <img src={image2Loc} alt={title} className={styles['imgStyle']} />
                 </div>
             </div>
         </div>
