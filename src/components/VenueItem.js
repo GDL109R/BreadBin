@@ -9,7 +9,7 @@ export default ({ title, venueMessage, imageLoc, Lat, Lon = false }) => {
                     {venueMessage}
                 </div>
                 <div className="col-3 square-box">
-                    <img src={require("../Images/Cat7.png")} alt={title} className={styles['imgStyle']} />
+                    <img src={imageLoc} alt={title} className={styles['imgStyle']} />
                 </div>
 
                 <div className="col-3">
