@@ -20,8 +20,8 @@ const vens = [
         name: "My House",
         venueMessage: "In the middle of my street",
         imageLoc: "/Images/Cat5.png",
-        Lat: 51.503293150379825,
-        Lon: 0.0031587377619393116
+        Lat: 51.50956478568516,
+        Lon: -2.608939174156568
     },
 ];
 
