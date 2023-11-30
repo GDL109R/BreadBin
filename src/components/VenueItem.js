@@ -1,4 +1,5 @@
 import styles from "../PortfolioSection.module.css";
+import GoogleMapComponent from "./GoogleMapComponent";
 
 export default ({ title, venueMessage, imageLoc, Lat, Lon = false }) => {
     return (
@@ -13,7 +14,10 @@ export default ({ title, venueMessage, imageLoc, Lat, Lon = false }) => {
                 </div>
 
                 <div className="col-3">
-                    <div className={styles['boxStyle']}>Lat: {Lat}<br />Lon: {Lon}</div>
+                    {Lat && Lon && (
+                        <GoogleMapComponent lat={Lat} lng={Lon} />
+                    )}
+                    {/*<div className={styles['boxStyle']}>Lat: {Lat}<br />Lon: {Lon}</div>*/}
                 </div>
             </div>
         </div>
