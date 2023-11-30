@@ -14,7 +14,8 @@ const Portfolio = () => {
         <Fragment>
             <div className="page-borders">
                 <div><h1 style={{ textAlign: "center" }}>Portfolio</h1></div>
-                <div className="container" style={{ padding: "40px", paddingTop: "15px" }}>
+                <div><h2 style={{ textAlign: "center" }}>Take a look at what we do here at BreadBin.</h2></div>
+                <div className="container" style={{ padding: "40px", paddingTop: "15px", paddingBottom: "15px" }}>
                     <div className="row">
                         <div className="col-4 d-flex justify-content-center">
                             <button onClick={() => handleClick("Gigs")} className="btn btn-primary" style={{ minWidth: "150px" }}>

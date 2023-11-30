@@ -13,8 +13,8 @@ const Gigs = () => {
     //<img src={require("../Images/Cat0.png")} alt="Liv" className={styles['pfpImgStyle']} />
     return (
         <Fragment>
-
-            <div className="container-fluid border" style={{padding: "10px"} }>
+            <div><h1 style={{ paddingBottom: "5px", textAlign: "center" }}>Gigs</h1></div>
+            <div className="container-fluid border" style={{ padding: "10px" }}>
                 <h1>Gigs</h1>
                 <div className="row">
                     <div className="col-7">

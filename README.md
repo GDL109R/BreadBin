@@ -12,7 +12,7 @@ Main colour to use (for now) is ***#b94ccf***
 * [X] The Team
 * [X] Contact
 * [X] Navbar
-* [ ] Style
-* [ ] Extras ;)
+* [X] Style
+* [X] Extras ;)
 
 *npm start*
