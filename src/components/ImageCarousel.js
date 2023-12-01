@@ -17,11 +17,11 @@ const ImageCarousel = ({ images }) => {
 
     const buttonStyle = {
         position: 'absolute',
-        bottom: 15,
+        bottom: 14,
         transform: 'translateY(50%)',
-        backgroundColor: 'rgba(0, 0, 0, 0.3)', // Adjust the color as needed
+        backgroundColor: 'rgba(0, 0, 0, 0.7)', // Adjust the color as needed
         color: 'white', // Text color
-        border: '1px solid rgba(0, 0, 0, 0.3)', // Border color matches the background
+        border: '1px solid rgba(0, 0, 0, 0.7)', // Border color matches the background
         opacity: 0.7, // Adjust transparency
         cursor: 'pointer'
     };
@@ -33,8 +33,8 @@ const ImageCarousel = ({ images }) => {
                 style={{ width: '256px', height: '256px', display: 'block' }}
                 alt={`carousel-${currentIndex}`}
             />
-            <button onClick={goToPrevious} style={{ ...buttonStyle, left: 8 }}>&larr;</button>
-            <button onClick={goToNext} style={{ ...buttonStyle, right: 8 }}>&rarr;</button>
+            <button onClick={goToPrevious} style={{ ...buttonStyle, left: 12, borderTopRightRadius: "100px" }}>&larr;</button>
+            <button onClick={goToNext} style={{ ...buttonStyle, right: 12, borderTopLeftRadius: "100px" }}>&rarr;</button>
         </div>
     );
 }
