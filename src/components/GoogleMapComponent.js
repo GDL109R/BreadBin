@@ -5,10 +5,10 @@ const GoogleMapComponent = ({ lat, lng }) => {
     const createMapOptions = (maps) => {
         // Customize the map options as needed
         return {
-            disableDefaultUI: false, 
-            mapTypeControl: true, 
-            streetViewControl: false, 
-            zoomControl: true, 
+            disableDefaultUI: false,
+            mapTypeControl: true,
+            streetViewControl: false,
+            zoomControl: true,
         };
     };
 

@@ -13,7 +13,7 @@ export default ({ title, bandMessage, image1Loc, image2Loc = false }) => {
                 </div>
 
                 <div className="col-3">
-                <img src={image2Loc} alt={title} className={styles['imgStyle']} />
+                    <img src={image2Loc} alt={title} className={styles['imgStyle']} />
                 </div>
             </div>
         </div>
