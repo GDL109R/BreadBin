@@ -1,6 +1,5 @@
 a.navbar-brand {
     white-space: normal;
-    text-align: center;
     word-break: break-all;
 }
 
@@ -27,9 +26,9 @@ html {
     z-index: 1000; /* Ensure it appears above other content */
 }
 
-img {
-    max-width: 50px;
-    max-height: 25px;
-    min-width: 50px;
-    min-height: 25px;
+.logoStyle {
+    max-width: 15%;
+    max-height: 15%;
+    min-width: 15%;
+    min-height: 15%;
 }
