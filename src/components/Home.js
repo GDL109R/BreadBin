@@ -28,13 +28,15 @@ const Home = () => {
         setRotateClass('');
     };
 
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
         <Fragment>
             <div className={styles['backgroundImage']}>
                 <div className="container">
                     <div className={styles['logoRow']}>
                         <div className={styles['logoCol']}>
-                            <div className={styles['logoStyle']}>BreadBinProduction</div>
+                            <img className={`${styles.logoImgStyle}`} src={require("../Images/5white.png")} alt="BreadBin Productions Logo" />
                         </div>
                     </div>
                     <div className="row">
