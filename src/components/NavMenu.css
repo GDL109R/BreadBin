@@ -24,11 +24,14 @@ html {
     left: 0;
     right: 0;
     z-index: 1000; /* Ensure it appears above other content */
+    
 }
 
 .logoStyle {
-    max-width: 10%;
-    max-height: 10%;
-    min-width: 10%;
-    min-height: 10%;
+    max-width: 15%;
+    max-height: 15%;
+    min-width: 15%;
+    min-height: 15%;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
